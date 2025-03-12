@@ -19,14 +19,7 @@
                 <a href="#about">Sobre Mí</a>
                 <a href="#portfolio">Portafolio</a>
                 <a href="#services">Servicios</a>
-                <a href="#contact">Contacto</a>
-                <button id="theme-toggle" aria-label="Toggle theme">
-                    <i class="fas fa-moon"></i>
-                </button>
             </div>
-            <button class="mobile-menu" aria-label="Menu">
-                <i class="fas fa-bars"></i>
-            </button>
         </div>
     </nav>
 
@@ -129,55 +122,128 @@
                                     <div class="tool-item">
                                         <i class="fab fa-git-alt"></i>
                                         <h4>Git & GitHub</h4>
-                                        <p>Control de versiones y gestión de repositorios en GitHub.</p>
+                                        <p>Control de versiones y gestión de repositorios.</p>
                                     </div>
                                     <div class="tool-item">
                                         <i class="fas fa-project-diagram"></i>
                                         <h4>SCRUM</h4>
-                                        <p>Gestión ágil de proyectos, facilitando el trabajo en equipo.</p>
+                                        <p>Gestión ágil de proyectos y trabajo en equipo.</p>
                                     </div>
                                     <div class="tool-item">
                                         <i class="fab fa-docker"></i>
                                         <h4>Docker</h4>
-                                        <p>Contenerización de aplicaciones para facilitar despliegues.</p>
+                                        <p>Contenerización y despliegue de aplicaciones.</p>
                                     </div>
                                     <div class="tool-item">
                                         <i class="fab fa-aws"></i>
                                         <h4>AWS Cloud</h4>
-                                        <p>Implementación de soluciones en la nube con AWS.</p>
+                                        <p>Implementación de soluciones en la nube.</p>
                                     </div>
                                     <div class="tool-item">
                                         <i class="fas fa-sync-alt"></i>
                                         <h4>CI/CD</h4>
-                                        <p>Automatización de integración y despliegue continuo.</p>
+                                        <p>Integración y despliegue continuo.</p>
                                     </div>
                                     <div class="tool-item">
                                         <i class="fab fa-jira"></i>
                                         <h4>Jira</h4>
-                                        <p>Gestión de tareas y seguimiento de proyectos ágiles.</p>
+                                        <p>Gestión y seguimiento de proyectos.</p>
                                     </div>
-                                    <div class="tool-item">
-                                        <i class="fas fa-vial"></i>
-                                        <h4>Testing</h4>
-                                        <p>Pruebas unitarias y de integración para software robusto.</p>
-                                    </div>
-                                    <div class="tool-item">
-                                        <i class="fas fa-code"></i>
-                                        <h4>Clean Code</h4>
-                                        <p>Buenas prácticas de programación para código mantenible.</p>
-                                    </div>
-                            </div>                            
+                                </div>
+                            </div>
                         </div>
                     </div>
                 </div>
             </div>
         </section>
 
-        <section id="portfolio" class="portfolio">
+        <section id="portfolio" class="section portfolio">
             <div class="container">
-                <h2>Portafolio</h2>
+                <h2 class="section-title">Portafolio</h2>
                 <div class="projects-grid">
-                    <!-- Project cards will be added dynamically via JavaScript -->
+                    <!-- Proyecto 1 -->
+                    <div class="project-card">
+                        <div class="project-content">
+                            <h3>Sistema de Gestión de Inventario</h3>
+                            <p>Aplicación de escritorio para gestión de inventario con reportes en tiempo real, sistema de alertas y dashboard interactivo.</p>
+                            <div class="project-tech">
+                                <span class="tech-tag">C#</span>
+                                <span class="tech-tag">.NET</span>
+                                <span class="tech-tag">SQL Server</span>
+                            </div>
+                            <div class="project-links">
+                                <a href="#" class="project-link" target="_blank">
+                                    <i class="fab fa-github"></i> Código
+                                </a>
+                                <a href="#" class="project-link" target="_blank">
+                                    <i class="fas fa-external-link-alt"></i> Demo
+                                </a>
+                            </div>
+                        </div>
+                    </div>
+
+                    <!-- Proyecto 2 -->
+                    <div class="project-card">
+                        <div class="project-content">
+                            <h3>API de Reconocimiento Facial</h3>
+                            <p>Sistema de reconocimiento facial usando deep learning para identificación y autenticación de usuarios en tiempo real.</p>
+                            <div class="project-tech">
+                                <span class="tech-tag">Python</span>
+                                <span class="tech-tag">TensorFlow</span>
+                                <span class="tech-tag">OpenCV</span>
+                            </div>
+                            <div class="project-links">
+                                <a href="#" class="project-link" target="_blank">
+                                    <i class="fab fa-github"></i> Código
+                                </a>
+                                <a href="#" class="project-link" target="_blank">
+                                    <i class="fas fa-external-link-alt"></i> Demo
+                                </a>
+                            </div>
+                        </div>
+                    </div>
+
+                    <!-- Proyecto 3 -->
+                    <div class="project-card">
+                        <div class="project-content">
+                            <h3>Sistema de Gestión Académica</h3>
+                            <p>Plataforma web para gestión de cursos, estudiantes y calificaciones con generación automática de reportes y análisis de rendimiento.</p>
+                            <div class="project-tech">
+                                <span class="tech-tag">Java</span>
+                                <span class="tech-tag">Spring Boot</span>
+                                <span class="tech-tag">PostgreSQL</span>
+                            </div>
+                            <div class="project-links">
+                                <a href="#" class="project-link" target="_blank">
+                                    <i class="fab fa-github"></i> Código
+                                </a>
+                                <a href="#" class="project-link" target="_blank">
+                                    <i class="fas fa-external-link-alt"></i> Demo
+                                </a>
+                            </div>
+                        </div>
+                    </div>
+
+                    <!-- Proyecto 4 -->
+                    <div class="project-card">
+                        <div class="project-content">
+                            <h3>Bot de Trading Automático</h3>
+                            <p>Bot de trading que utiliza algoritmos de machine learning para predecir movimientos del mercado y ejecutar operaciones automáticamente.</p>
+                            <div class="project-tech">
+                                <span class="tech-tag">Python</span>
+                                <span class="tech-tag">Pandas</span>
+                                <span class="tech-tag">Scikit-learn</span>
+                            </div>
+                            <div class="project-links">
+                                <a href="#" class="project-link" target="_blank">
+                                    <i class="fab fa-github"></i> Código
+                                </a>
+                                <a href="#" class="project-link" target="_blank">
+                                    <i class="fas fa-external-link-alt"></i> Demo
+                                </a>
+                            </div>
+                        </div>
+                    </div>
                 </div>
             </div>
         </section>
