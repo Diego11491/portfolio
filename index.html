@@ -1,0 +1,227 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Tu Portafolio | Ingeniero de Sistemas</title>
+    <link rel="stylesheet" href="css/style.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css">
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700&display=swap" rel="stylesheet">
+</head>
+<body class="dark-theme">
+    <nav class="navbar">
+        <div class="nav-content">
+            <div class="logo">
+                <a href="#home">Portafolio</a>
+            </div>
+            <div class="nav-links">
+                <a href="#home" class="active">Inicio</a>
+                <a href="#about">Sobre Mí</a>
+                <a href="#portfolio">Portafolio</a>
+                <a href="#services">Servicios</a>
+                <a href="#contact">Contacto</a>
+                <button id="theme-toggle" aria-label="Toggle theme">
+                    <i class="fas fa-moon"></i>
+                </button>
+            </div>
+            <button class="mobile-menu" aria-label="Menu">
+                <i class="fas fa-bars"></i>
+            </button>
+        </div>
+    </nav>
+
+    <main>
+        <section id="home" class="hero">
+            <div class="container">
+                <div class="hero-content">
+                    <h1 class="animate-text">Soy <span class="highlight">Diego Ventura</span></h1>
+                    <p class="subtitle">Ingeniero de Sistemas especializado en Machine Learning</p>
+                    <div class="social-links-hero">
+                        <a href="https://github.com/Diego11491" target="_blank" rel="noopener noreferrer" class="social-btn">
+                            <i class="fab fa-github"></i> GitHub
+                        </a>
+                        <a href="https://linkedin.com/in/diegoventura11491" target="_blank" rel="noopener noreferrer" class="social-btn">
+                            <i class="fab fa-linkedin"></i> LinkedIn
+                        </a>
+                    </div>
+                    <div class="cta-buttons">
+                        <a href="#portfolio" class="btn primary">Ver Proyectos</a>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <section id="about" class="section">
+            <div class="container">
+                <h2 class="section-title">Sobre Mí</h2>
+                <div class="profile-container">
+                    <div class="profile-image">
+                        <img src="images/Diego.jpg" alt="Diego Ventura - Ingeniero de Sistemas">
+                    </div>
+                    <div class="profile-content">
+                        <p>Soy estudiante de Ingeniería de Sistemas con pasión por la tecnología y el desarrollo de software. Me especializo en diseñar soluciones innovadoras y eficientes para abordar desafíos complejos, combinando creatividad y lógica para optimizar procesos y mejorar experiencias digitales.</p>
+                        <div class="skills-container">
+                            <div class="skills-category">
+                                <h3><i class="fas fa-code"></i> Desarrollo Web</h3>
+                                <div class="skill-icons">
+                                    <div class="skill-icon">
+                                        <i class="fab fa-html5"></i>
+                                        <span>HTML5</span>
+                                    </div>
+                                    <div class="skill-icon">
+                                        <i class="fab fa-css3-alt"></i>
+                                        <span>CSS3</span>
+                                    </div>
+                                    <div class="skill-icon">
+                                        <i class="fab fa-js"></i>
+                                        <span>JavaScript</span>
+                                    </div>
+                                    <div class="skill-icon">
+                                        <i class="fab fa-react"></i>
+                                        <span>React</span>
+                                    </div>
+                                    <div class="skill-icon">
+                                        <i class="fab fa-node-js"></i>
+                                        <span>Node.js</span>
+                                    </div>
+                                </div>
+                            </div>
+
+                            <div class="skills-category">
+                                <h3><i class="fas fa-database"></i> Bases de Datos</h3>
+                                <div class="skill-icons">
+                                    <div class="skill-icon">
+                                        <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/postgresql/postgresql-original.svg" alt="PostgreSQL">
+                                        <span>PostgreSQL</span>
+                                    </div>
+                                    <div class="skill-icon">
+                                        <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/mongodb/mongodb-original.svg" alt="MongoDB">
+                                        <span>MongoDB</span>
+                                    </div>
+                                    <div class="skill-icon">
+                                        <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/mysql/mysql-original.svg" alt="MySQL">
+                                        <span>MySQL</span>
+                                    </div>
+                                </div>
+                            </div>
+
+                            <div class="skills-category">
+                                <h3><i class="fas fa-brain"></i> Machine Learning</h3>
+                                <div class="skill-icons">
+                                    <div class="skill-icon">
+                                        <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/python/python-original.svg" alt="Python">
+                                        <span>Python</span>
+                                    </div>
+                                    <div class="skill-icon">
+                                        <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/tensorflow/tensorflow-original.svg" alt="TensorFlow">
+                                        <span>TensorFlow</span>
+                                    </div>
+                                    <div class="skill-icon">
+                                        <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/pandas/pandas-original.svg" alt="Pandas">
+                                        <span>Pandas</span>
+                                    </div>
+                                </div>
+                            </div>
+
+                            <div class="skills-category">
+                                <h3><i class="fas fa-tools"></i> Herramientas y Metodologías</h3>
+                                <div class="tools-grid">
+                                    <div class="tool-item">
+                                        <i class="fab fa-git-alt"></i>
+                                        <h4>Git & GitHub</h4>
+                                        <p>Control de versiones y gestión de repositorios en GitHub.</p>
+                                    </div>
+                                    <div class="tool-item">
+                                        <i class="fas fa-project-diagram"></i>
+                                        <h4>SCRUM</h4>
+                                        <p>Gestión ágil de proyectos, facilitando el trabajo en equipo.</p>
+                                    </div>
+                                    <div class="tool-item">
+                                        <i class="fab fa-docker"></i>
+                                        <h4>Docker</h4>
+                                        <p>Contenerización de aplicaciones para facilitar despliegues.</p>
+                                    </div>
+                                    <div class="tool-item">
+                                        <i class="fab fa-aws"></i>
+                                        <h4>AWS Cloud</h4>
+                                        <p>Implementación de soluciones en la nube con AWS.</p>
+                                    </div>
+                                    <div class="tool-item">
+                                        <i class="fas fa-sync-alt"></i>
+                                        <h4>CI/CD</h4>
+                                        <p>Automatización de integración y despliegue continuo.</p>
+                                    </div>
+                                    <div class="tool-item">
+                                        <i class="fab fa-jira"></i>
+                                        <h4>Jira</h4>
+                                        <p>Gestión de tareas y seguimiento de proyectos ágiles.</p>
+                                    </div>
+                                    <div class="tool-item">
+                                        <i class="fas fa-vial"></i>
+                                        <h4>Testing</h4>
+                                        <p>Pruebas unitarias y de integración para software robusto.</p>
+                                    </div>
+                                    <div class="tool-item">
+                                        <i class="fas fa-code"></i>
+                                        <h4>Clean Code</h4>
+                                        <p>Buenas prácticas de programación para código mantenible.</p>
+                                    </div>
+                            </div>                            
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <section id="portfolio" class="portfolio">
+            <div class="container">
+                <h2>Portafolio</h2>
+                <div class="projects-grid">
+                    <!-- Project cards will be added dynamically via JavaScript -->
+                </div>
+            </div>
+        </section>
+
+        <section id="services" class="services">
+            <div class="container">
+                <h2>Servicios</h2>
+                <div class="services-grid">
+                    <div class="service-card">
+                        <i class="fas fa-code"></i>
+                        <h3>Desarrollo Web</h3>
+                        <p>Creación de aplicaciones web modernas y responsivas</p>
+                    </div>
+                    <div class="service-card">
+                        <i class="fas fa-brain"></i>
+                        <h3>Machine Learning</h3>
+                        <p>Desarrollo de modelos de IA y análisis de datos</p>
+                    </div>
+                    <div class="service-card">
+                        <i class="fas fa-desktop"></i>
+                        <h3>Desarrollo de Aplicaciones de Escritorio</h3>
+                        <p>Software para Windows y otras plataformas</p>
+                    </div>
+                </div>
+            </div>
+        </section>
+    </main>
+
+    <footer>
+        <div class="container">
+            <div class="footer-content">
+                <p>&copy; <span id="current-year"></span> Diego Ventura. Todos los derechos reservados.</p>
+                <div class="social-links">
+                    <a href="https://github.com/Diego11491" target="_blank" rel="noopener noreferrer">
+                        <i class="fab fa-github"></i>
+                    </a>
+                    <a href="https://linkedin.com/in/diegoventura11491" target="_blank" rel="noopener noreferrer">
+                        <i class="fab fa-linkedin"></i>
+                    </a>
+                </div>
+            </div>
+        </div>
+    </footer>
+
+    <script src="js/main.js"></script>
+</body>
+</html>
